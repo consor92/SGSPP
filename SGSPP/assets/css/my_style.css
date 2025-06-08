@@ -1,0 +1,14 @@
+.alinealo_vertical{
+    display: flex;
+    justify-content:baseline;
+    align-items: center;
+}
+.aliniate{
+    margin: 0 auto;
+    
+}
+
+.row{
+    margin-top:0px;
+    margin-bottom: 60px;
+}

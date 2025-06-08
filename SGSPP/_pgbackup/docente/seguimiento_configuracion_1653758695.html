@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Blank Template for Bootstrap</title>
+        <!-- Bootstrap core CSS -->
+        <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="../style.css" rel="stylesheet">
+        <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    </head>
+    <body>
+        <div class="container">
+</div>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="../home.html">Inicio</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">Alumnos</li>
+            </ol>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3"> 
+                    <a href="#"> <img class="w-100 img-thumbnail" src="../assets/img/alumnos" alt=""> </a> 
+                </div>
+                <div class="col-md-8">
+                    <h3>
+                        Configuración </h3>
+                    <nav class="col-12 mt-5">
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link Active" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="true">Cursos</a>
+                            <a class="nav-item nav-link" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="false">Alumnos</a>
+                            <a class="nav-item nav-link" id="nav-proyectos-tab" data-toggle="tab" href="#nav-proyectos" role="tab" aria-controls="nav-bitacora" aria-selected="false">Proyectos</a>
+                            <a class="nav-item nav-link" id="nav--tab" data-toggle="tab" href="#nav-bitacora" role="tab" aria-controls="nav-bitacora" aria-selected="false">Bitácora</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <div class="row">
+                            <div class="col p-2 m-3">
+                                <h3>Agregar Curso</h3>
+                                <form class="bg-light m-3 p-2 shadow-lg">
+                                    <div class="form-group col-12"> 
+                                        <label for="formInput76">Curso</label>                                         
+                                        <input type="text" class="form-control" id="formInput76" placeholder="Ingrese nombre del curso"> 
+                                    </div>
+                                    <div class="form-group col-12"> 
+                                        <label for="formInput77">Codigo de Matriculación</label>                                         
+                                        <input type="text" class="form-control" id="formInput77" placeholder="Ingrese un codigo"> 
+                                    </div>
+                                    <div class="form-group col-3"> 
+                                        <label for="formInput78">Año</label>                                         
+                                        <input type="number" min="2015" max="2030" class="form-control" id="formInput78" value="2022"> 
+                                    </div>
+                                    <!----------------------------------------->
+                                    <div class=" row col-12 mb-2">
+                                        <div class="col-8">
+</div>
+                                        <div class="col-2">
+                                            <input type="submit" class="btn btn-primary shadow-lg" value="Agregar"> 
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="bg-light col p-2 m-3 shadow-lg">
+                                <h3>Todos los cursos</h3>
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Curso</th>
+                                            <th scope="col">Codigo de Matriculación</th>
+                                            <th scope="col">Año</th>
+                                            <th scope="col"></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">6to 1ra C</th>
+                                            <td>61ppC22</td>
+                                            <td>2022</td>
+                                            <td><a class="btn btn-danger font-weight-bold text-white mr-2"><i class="bi bi-trash"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">6to 2da C</th>
+                                            <td>62ppC22</td>
+                                            <td>2022</td>
+                                            <td><a class="btn btn-danger font-weight-bold text-white mr-2"><i class="bi bi-trash"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">6to 1ra M</th>
+                                            <td>61ppM22</td>
+                                            <td>2022</td>
+                                            <td><a class="btn btn-danger font-weight-bold text-white mr-2"><i class="bi bi-trash"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">6to 2da M</th>
+                                            <td>62ppM22</td>
+                                            <td>2022</td>
+                                            <td><a class="btn btn-danger font-weight-bold text-white mr-2"><i class="bi bi-trash"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">6to 1ra C</th>
+                                            <td>61ppC21</td>
+                                            <td>2021</td>
+                                            <td><a class="btn btn-danger font-weight-bold text-white mr-2"><i class="bi bi-trash"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">6to 2da C</th>
+                                            <td>62ppC21</td>
+                                            <td>2021</td>
+                                            <td><a class="btn btn-danger font-weight-bold text-white mr-2"><i class="bi bi-trash"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">6to 1ra M</th>
+                                            <td>61ppM21</td>
+                                            <td>2021</td>
+                                            <td><a class="btn btn-danger font-weight-bold text-white mr-2"><i class="bi bi-trash"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">6to 2da M</th>
+                                            <td>62ppM21</td>
+                                            <td>2021</td>
+                                            <td><a class="btn btn-danger font-weight-bold text-white mr-2"><i class="bi bi-trash"></i></a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>                                 
+                            </div>                             
+                        </div>
+                    </div>
+                    <div class="tab-pane fade active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <div class="row">
+                            <div class="col p-2 m-3">
+                                <h3>Buscar alumnos</h3>
+                                <form class="bg-light m-3 p-2 shadow-lg">
+                                    <div class="form-group mx-sm-3 mb-2">
+                                        <label for="curso">Curso</label>
+                                        <select id="curso" name="curso" class="form-control">
+                                            <option>6to 1ra Computación</option>
+                                            <option>6to 2da Computación</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-3"> 
+                                        <label for="formInput78">Año</label>                                         
+                                        <input type="number" min="2015" max="2030" class="form-control" id="formInput178" value="2022"> 
+                                    </div>
+                                    <div class=" row col-12 mb-2">
+                                        <div class="col-8">
+</div>
+                                        <div class="col-2">
+                                            <input type="submit" class="btn btn-primary shadow-lg" value="Agregar"> 
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="bg-light col p-2 m-3 shadow-lg">
+                                <h3>Todos los alumnos</h3>
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Apellido</th>
+                                            <th scope="col">Nombre</th>
+                                            <th scope="col"></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">Ceserio</th>
+                                            <td>Lorenzo</td>
+                                            <td><a class="btn btn-danger font-weight-bold text-white mr-2"><i class="bi bi-trash"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Cobos</th>
+                                            <td>Angel</td>
+                                            <td><a class="btn btn-danger font-weight-bold text-white mr-2"><i class="bi bi-trash"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Ecordina</th>
+                                            <td>Matilde</td>
+                                            <td><a class="btn btn-danger font-weight-bold text-white mr-2"><i class="bi bi-trash"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Endel</th>
+                                            <td>Marcelo</td>
+                                            <td><a class="btn btn-danger font-weight-bold text-white mr-2"><i class="bi bi-trash"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Fangio</th>
+                                            <td>David</td>
+                                            <td><a class="btn btn-danger font-weight-bold text-white mr-2"><i class="bi bi-trash"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Fernandez</th>
+                                            <td>Uma</td>
+                                            <td><a class="btn btn-danger font-weight-bold text-white mr-2"><i class="bi bi-trash"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Gomez</th>
+                                            <td>Alberto</td>
+                                            <td><a class="btn btn-danger font-weight-bold text-white mr-2"><i class="bi bi-trash"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Gonzalez</th>
+                                            <td>Alex</td>
+                                            <td><a class="btn btn-danger font-weight-bold text-white mr-2"><i class="bi bi-trash"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Pereyra</th>
+                                            <td>Miguel</td>
+                                            <td><a class="btn btn-danger font-weight-bold text-white mr-2"><i class="bi bi-trash"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Tinquero</th>
+                                            <td>Luis</td>
+                                            <td><a class="btn btn-danger font-weight-bold text-white mr-2"><i class="bi bi-trash"></i></a></td>
+                                        </tr>                                         
+                                        <tr>
+                                            <th scope="row">Traverso</th>
+                                            <td>Pedro</td>
+                                            <td><a class="btn btn-danger font-weight-bold text-white mr-2"><i class="bi bi-trash"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Yonar</th>
+                                            <td>Alex</td>
+                                            <td><a class="btn btn-danger font-weight-bold text-white mr-2"><i class="bi bi-trash"></i></a></td>
+                                        </tr>                                         
+                                    </tbody>
+                                </table>                                 
+                            </div>                             
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-proyectos" role="tabpanel" aria-labelledby="nav-bitacora-tab">
+                        <div class="row">
+                            <div class="col p-2 m-3">
+                                <h3>Asignación de Proyectos</h3>
+                                <form class="bg-light m-3 p-2 shadow-lg">
+                                    <div class="form-group mx-sm-3 mb-2">
+                                        <label for="curso">Curso</label>
+                                        <select id="curso1" name="curso1" class="form-control">
+                                            <option>6to 1ra Computación</option>
+                                            <option>6to 2da Computación</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-12"> 
+                                        <label for="formInput78">Nombre del Proyecto</label>                                         
+                                        <input class="form-control" type="text" id="proyecto" name="proyecto"> 
+                                    </div>
+                                    <div class="row ml-1 mr-1">
+                                        <div class="form-group col-6"> 
+                                            <label for="formInput78">Fecha Inicio</label>                                             
+                                            <input class="form-control" type="date" id="inicio" name="inicio"> 
+                                        </div>
+                                        <div class="form-group col-6"> 
+                                            <label for="formInput78">Fecha Finalización</label>                                             
+                                            <input class="form-control" type="date" id="fin" name="inicio"> 
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <h4>
+                                        Seleccione los integrantes </h4>
+                                        <table class="table mt-2 ml-5">
+                                            <tr>
+                                                <td>
+                                                    <input type="checkbox" checked data-toggle="toggle" data-on="SI" data-off="NO" data-onstyle="success" data-offstyle="danger"> 
+                                                </td>
+                                                <td>Ceserio, Lorenzo</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <input type="checkbox" checked data-toggle="toggle" data-on="SI" data-off="NO" data-onstyle="success" data-offstyle="danger">
+                                                </td>
+                                                <td>Cobos, Angel</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <input type="checkbox" checked data-toggle="toggle" data-on="SI" data-off="NO" data-onstyle="success" data-offstyle="danger">
+                                                </td>
+                                                <td>Ecordina, Matilde</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <input type="checkbox" checked data-toggle="toggle" data-on="SI" data-off="NO" data-onstyle="success" data-offstyle="danger">
+                                                </td>
+                                                <td>Endel, Marcelo</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <input type="checkbox" checked data-toggle="toggle" data-on="SI" data-off="NO" data-onstyle="success" data-offstyle="danger">
+                                                </td>
+                                                <td>Fangio, David</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <input type="checkbox" checked data-toggle="toggle" data-on="SI" data-off="NO" data-onstyle="success" data-offstyle="danger">
+                                                </td>
+                                                <td>Fernandez, Uma</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <input type="checkbox" checked data-toggle="toggle" data-on="SI" data-off="NO" data-onstyle="success" data-offstyle="danger">
+                                                </td>
+                                                <td>Gomez, Alberto</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <input type="checkbox" checked data-toggle="toggle" data-on="SI" data-off="NO" data-onstyle="success" data-offstyle="danger">
+                                                </td>
+                                                <td>Gonzalez, Alex</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <input type="checkbox" checked data-toggle="toggle" data-on="SI" data-off="NO" data-onstyle="success" data-offstyle="danger"> 
+                                                </td>
+                                                <td>Pereyra, Miguel</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <input type="checkbox" checked data-toggle="toggle" data-on="SI" data-off="NO" data-onstyle="success" data-offstyle="danger">
+                                                </td>
+                                                <td>Tinquero, Luis</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <input type="checkbox" checked data-toggle="toggle" data-on="SI" data-off="NO" data-onstyle="success" data-offstyle="danger">
+                                                </td>
+                                                <td>Traverso, Pedro</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <input type="checkbox" checked data-toggle="toggle" data-on="SI" data-off="NO" data-onstyle="success" data-offstyle="danger">
+                                                </td>
+                                                <td>Yonar, Claudio</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class=" row col-12 mb-2">
+                                        <div class="col-8">
+</div>
+                                        <div class="col-2">
+                                            <input type="submit" class="btn btn-primary shadow-lg" value="Agregar"> 
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="bg-light col p-2 m-3 shadow-lg">
+                                <h3>Todos los Proyectos</h3>
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Proyecto</th>
+                                            <th scope="col">Finalización</th>
+                                            <th scope="col"></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">Aquaponia 3.0</th>
+                                            <td>19/11/2022</td>
+                                            <td><a class="btn btn-danger font-weight-bold text-white mr-2"><i class="bi bi-trash"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Banco de datos</th>
+                                            <td>19/11/2022</td>
+                                            <td><a class="btn btn-danger font-weight-bold text-white mr-2"><i class="bi bi-trash"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Sistema Gestor de restaurantes</th>
+                                            <td>15/11/2022</td>
+                                            <td><a class="btn btn-danger font-weight-bold text-white mr-2"><i class="bi bi-trash"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Control de turnos odontologicos</th>
+                                            <td>15/11/2022</td>
+                                            <td><a class="btn btn-danger font-weight-bold text-white mr-2"><i class="bi bi-trash"></i></a></td>
+                                        </tr>                                         
+                                    </tbody>
+                                </table>                                 
+                            </div>                             
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-bitacora" role="tabpanel" aria-labelledby="nav-bitacora-tab">
+                        <div class="row">
+                            <div class="col p-2 m-3">
+                                <h3>Agregar Pregunta</h3>
+                                <form class="bg-light m-3 p-2 shadow-lg">
+                                    <div class="form-group col-12"> 
+                                        <label for="formInput76">Pregunta</label>                                         
+                                        <input type="text" class="form-control" id="formInput476" placeholder="Ingrese una pregunta"> 
+                                    </div>
+                                    <div class=" row col-12 mb-2">
+                                        <div class="col-8">
+</div>
+                                        <div class="col-2">
+                                            <input type="submit" class="btn btn-primary shadow-lg" value="Agregar"> 
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="bg-light col p-2 m-3 shadow-lg">
+                                <h3>Todos las Preguntas</h3>
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Pregunta</th>
+                                            <th scope="col"></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">¿Que tarea hicistes hoy?</th>
+                                            <td><a class="btn btn-primary font-weight-bold text-white mr-2"><i class="bi bi-arrow-down"></i></a><a class="btn btn-danger font-weight-bold text-white mr-2"><i class="bi bi-trash"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">¿Tuviste algún inconveniente?</th>
+                                            <td><a class="btn btn-primary font-weight-bold text-white mr-2"><i class="bi bi-arrow-up"></i></a><a class="btn btn-primary font-weight-bold text-white mr-2"><i class="bi bi-arrow-down"></i></a><a class="btn btn-danger font-weight-bold text-white mr-2"><i class="bi bi-trash"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">¿Pudiste resolver la tarea?</th>
+                                            <td><a class="btn btn-primary font-weight-bold text-white mr-2"><i class="bi bi-arrow-up"></i></a><a class="btn btn-danger font-weight-bold text-white mr-2"><i class="bi bi-trash"></i></a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>                                 
+                            </div>                             
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/popper.js"></script>
+        <script src="../bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+    </body>
+</html>

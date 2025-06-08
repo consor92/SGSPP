@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Blank Template for Bootstrap</title>
+        <!-- Bootstrap core CSS -->
+        <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="../style.css" rel="stylesheet">
+        <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    </head>
+    <body>
+        <div class="container">
+</div>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="../home.html">Inicio</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">Alumnos</li>
+            </ol>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3"> 
+                    <a href="#"> <img class="w-100 img-thumbnail" src="../assets/img/alumnos" alt=""> </a> 
+                </div>
+                <div class="col-md-8">
+                    <h3>
+                                Buscar Alumnos  </h3>
+                    <form class="form-inline">
+                        <div class="form-group mx-sm-3 mb-2">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">Curso</div>
+                            </div>
+                            <select class="form-control">
+                                <option>6to 1ra Computación</option>
+                                <option>6to 2da Computación</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-2">Buscar</button>
+                    </form>
+                    <nav class="col-12 mt-5">
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link Active" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="true">Información General</a>
+                            <a class="nav-item nav-link" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="false">Asistencia</a>
+                            <a class="nav-item nav-link" id="nav-bitacora-tab" data-toggle="tab" href="#nav-bitacora" role="tab" aria-controls="nav-bitacora" aria-selected="false">Bitacoras</a>
+                            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Carpetas de campo</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <div class="col-9">
+                            <table class="ml-5 mt-2 p-2 table-info thead-dark">
+                                <tr class="bg-info text-light">
+                                    <th>Alumno</th>
+                                    <th>Presentes (Días)</th>
+                                    <th>Ausentes (Días)</th>
+                                    <th>Total Hs. Penalizadas</th>
+                                    <th>Total Hs. Acumuladas</th>
+                                    <th>Bitacora</th>
+                                    <th>Carpeta de Campo (Nota)</th>
+                                </tr>
+                                <tr>
+                                    <td>Ceserio, Lorenzo</td>
+                                    <td align="center">5</td>
+                                    <td align="center">2</td>
+                                    <td align="center">0</td>
+                                    <td align="center">45</td>
+                                    <td class="text-success"><a>Normal</a></td>
+                                    <td align="center">7</td>
+                                </tr>
+                                <tr>
+                                    <td>Cobos, Angel</td>
+                                    <td align="center">6</td>
+                                    <td align="center">1</td>
+                                    <td align="center">0</td>
+                                    <td align="center">51</td>
+                                    <td class="text-success"><a>Normal</a></td>
+                                    <td align="center">7</td>
+                                </tr>
+                                <tr>
+                                    <td>Ecordina, Matilde</td>
+                                    <td align="center">7</td>
+                                    <td align="center">0</td>
+                                    <td align="center">0</td>
+                                    <td align="center">61</td>
+                                    <td class="text-success"><a>Normal</a></td>
+                                    <td align="center">7</td>
+                                </tr>
+                                <tr>
+                                    <td>Endel, Marcelo</td>
+                                    <td align="center">7</td>
+                                    <td align="center">0</td>
+                                    <td align="center">2</td>
+                                    <td align="center">45</td>
+                                    <td class="text-success"><a>Normal</a></td>
+                                    <td align="center">7</td>
+                                </tr>
+                                <tr>
+                                    <td>Fangio, David</td>
+                                    <td align="center">3</td>
+                                    <td align="center">2</td>
+                                    <td align="center">0</td>
+                                    <td align="center">27</td>
+                                    <td class="text-danger"><a>En Observación</a></td>
+                                    <td align="center">4</td>
+                                </tr>
+                                <tr>
+                                    <td>Fernandez, Uma</td>
+                                    <td align="center">7</td>
+                                    <td align="center">0</td>
+                                    <td align="center">0</td>
+                                    <td align="center">61</td>
+                                    <td class="text-success"><a>Normal</a></td>
+                                    <td align="center">9</td>
+                                </tr>
+                                <tr>
+                                    <td>Gomez, Alberto</td>
+                                    <td align="center">6</td>
+                                    <td align="center">1</td>
+                                    <td align="center">0</td>
+                                    <td align="center">51</td>
+                                    <td class="text-success"><a>Normal</a></td>
+                                    <td align="center">7</td>
+                                </tr>
+                                <tr>
+                                    <td>Gonzalez, Alex</td>
+                                    <td align="center">7</td>
+                                    <td align="center">0</td>
+                                    <td align="center">0</td>
+                                    <td align="center">61</td>
+                                    <td class="text-success"><a>Normal</a></td>
+                                    <td align="center">8</td>
+                                </tr>
+                                <tr>
+                                    <td>Pereyra, Miguel</td>
+                                    <td align="center">7</td>
+                                    <td align="center">0</td>
+                                    <td align="center">0</td>
+                                    <td align="center">61</td>
+                                    <td class="text-success"><a>Normal</a></td>
+                                    <td align="center">9</td>
+                                </tr>
+                                <tr>
+                                    <td>Tinquero, Luis</td>
+                                    <td align="center">3</td>
+                                    <td align="center">2</td>
+                                    <td align="center">0</td>
+                                    <td align="center">27</td>
+                                    <td class="text-danger"><a>En Observación</a></td>
+                                    <td align="center">5</td>
+                                </tr>
+                                <tr>
+                                    <td>Traverso, Pedro</td>
+                                    <td align="center">7</td>
+                                    <td align="center">0</td>
+                                    <td align="center">0</td>
+                                    <td align="center">61</td>
+                                    <td class="text-success"><a>Normal</a></td>
+                                    <td align="center">7</td>
+                                </tr>
+                                <tr>
+                                    <td>Yonar, Claudio</td>
+                                    <td align="center">7</td>
+                                    <td align="center">0</td>
+                                    <td align="center">0</td>
+                                    <td align="center">61</td>
+                                    <td class="text-danger"><a>En Observación</a></td>
+                                    <td align="center">4</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <div class="row">
+                            <div class="col-3">
+                                <form>
+                                    <table class="mt-2 ml-5">
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox" checked data-toggle="toggle" data-on="Presente" data-off="Ausente" data-onstyle="success" data-offstyle="danger"> 
+                                            </td>
+                                            <td>Ceserio, Lorenzo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox" checked data-toggle="toggle" data-on="Presente" data-off="Ausente" data-onstyle="success" data-offstyle="danger"> 
+                                            </td>
+                                            <td>Cobos, Angel</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox" checked data-toggle="toggle" data-on="Presente" data-off="Ausente" data-onstyle="success" data-offstyle="danger"> 
+                                            </td>
+                                            <td>Ecordina, Matilde</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox" checked data-toggle="toggle" data-on="Presente" data-off="Ausente" data-onstyle="success" data-offstyle="danger"> 
+                                            </td>
+                                            <td>Endel, Marcelo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox" checked data-toggle="toggle" data-on="Presente" data-off="Ausente" data-onstyle="success" data-offstyle="danger"> 
+                                            </td>
+                                            <td>Fangio, David</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox" checked data-toggle="toggle" data-on="Presente" data-off="Ausente" data-onstyle="success" data-offstyle="danger"> 
+                                            </td>
+                                            <td>Fernandez, Uma</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox" checked data-toggle="toggle" data-on="Presente" data-off="Ausente" data-onstyle="success" data-offstyle="danger"> 
+                                            </td>
+                                            <td>Gomez, Alberto</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox" checked data-toggle="toggle" data-on="Presente" data-off="Ausente" data-onstyle="success" data-offstyle="danger"> 
+                                            </td>
+                                            <td>Gonzalez, Alex</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox" checked data-toggle="toggle" data-on="Presente" data-off="Ausente" data-onstyle="success" data-offstyle="danger"> 
+                                            </td>
+                                            <td>Pereyra, Miguel</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox" checked data-toggle="toggle" data-on="Presente" data-off="Ausente" data-onstyle="success" data-offstyle="danger"> 
+                                            </td>
+                                            <td>Tinquero, Luis</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox" checked data-toggle="toggle" data-on="Presente" data-off="Ausente" data-onstyle="success" data-offstyle="danger"> 
+                                            </td>
+                                            <td>Traverso, Pedro</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox" checked data-toggle="toggle" data-on="Presente" data-off="Ausente" data-onstyle="success" data-offstyle="danger"> 
+                                            </td>
+                                            <td>Yonar, Claudio</td>
+                                        </tr>
+                                    </table>
+                                    <div class="m-3">
+                                        <input class="btn btn-primary" type="submit" value="Guardar"/>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <table class="table table-success mt-2 ml-5">
+                            <tr class="bg-success">
+                                <th>Alumno</th>
+                                <th>Archivo (.pdf)</th>
+                                <th>Fecha de carga</th>
+                                <th>Calificación</th>
+                                <th>Fecha de calificación</th>
+                                <th>Observaciones</th>
+                            </tr>
+                            <tr>
+                                <td>Ceserio, Lorenzo</td>
+                                <td><a class="btn btn-primary"><i class="bi bi-cloud-download-fill"></i></a></td>
+                                <td>17/04/2022</td>
+                                <td>
+                                    <input type="number" max="10" min="0" value="0">
+                                </td>
+                                <td>27/04/2022</td>
+                                <td class="text-success"><textarea cols="40"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td>Cobos, Angel</td>
+                                <td><a class="btn btn-primary"><i class="bi bi-cloud-download-fill"></i></a></td>
+                                <td>17/04/2022</td>
+                                <td>
+                                    <input type="number" max="10" min="0" value="0">
+                                </td>
+                                <td>27/04/2022</td>
+                                <td class="text-success"><textarea cols="40"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td>Ecordina, Matilde</td>
+                                <td><a class="btn btn-primary"><i class="bi bi-cloud-download-fill"></i></a></td>
+                                <td>17/04/2022</td>
+                                <td>
+                                    <input type="number" max="10" min="0" value="0">
+                                </td>
+                                <td>27/04/2022</td>
+                                <td class="text-success"><textarea cols="40"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td>Endel, Marcelo</td>
+                                <td><a class="btn btn-primary"><i class="bi bi-cloud-download-fill"></i></a></td>
+                                <td>17/04/2022</td>
+                                <td>
+                                    <input type="number" max="10" min="0" value="0">
+                                </td>
+                                <td>27/04/2022</td>
+                                <td class="text-success"><textarea cols="40"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td>Fangio, David</td>
+                                <td><a class="btn btn-primary"><i class="bi bi-cloud-download-fill"></i></a></td>
+                                <td>17/04/2022</td>
+                                <td>
+                                    <input type="number" max="10" min="0" value="0">
+                                </td>
+                                <td>27/04/2022</td>
+                                <td class="text-success"><textarea cols="40"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td>Fernandez, Uma</td>
+                                <td><a class="btn btn-primary"><i class="bi bi-cloud-download-fill"></i></a></td>
+                                <td>17/04/2022</td>
+                                <td>
+                                    <input type="number" max="10" min="0" value="0">
+                                </td>
+                                <td>27/04/2022</td>
+                                <td class="text-success"><textarea cols="40"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td>Gomez, Alberto</td>
+                                <td><a class="btn btn-primary"><i class="bi bi-cloud-download-fill"></i></a></td>
+                                <td>17/04/2022</td>
+                                <td>
+                                    <input type="number" max="10" min="0" value="0">
+                                </td>
+                                <td>27/04/2022</td>
+                                <td class="text-success"><textarea cols="40"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td>Gonzalez, Alex</td>
+                                <td><a class="btn btn-primary"><i class="bi bi-cloud-download-fill"></i></a></td>
+                                <td>17/04/2022</td>
+                                <td>
+                                    <input type="number" max="10" min="0" value="0">
+                                </td>
+                                <td>27/04/2022</td>
+                                <td class="text-success"><textarea cols="40"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td>Pereyra, Miguel</td>
+                                <td><a class="btn btn-primary"><i class="bi bi-cloud-download-fill"></i></a></td>
+                                <td>17/04/2022</td>
+                                <td>
+                                    <input type="number" max="10" min="0" value="0">
+                                </td>
+                                <td>27/04/2022</td>
+                                <td class="text-success"><textarea cols="40"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td>Tinquero, Luis</td>
+                                <td><a class="btn btn-primary"><i class="bi bi-cloud-download-fill"></i></a></td>
+                                <td>17/04/2022</td>
+                                <td>
+                                    <input type="number" max="10" min="0" value="0">
+                                </td>
+                                <td>27/04/2022</td>
+                                <td class="text-success"><textarea cols="40"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td>Traverso, Pedro</td>
+                                <td><a class="btn btn-primary"><i class="bi bi-cloud-download-fill"></i></a></td>
+                                <td>17/04/2022</td>
+                                <td>
+                                    <input type="number" max="10" min="0" value="0">
+                                </td>
+                                <td>27/04/2022</td>
+                                <td class="text-success"><textarea cols="40"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td>Yonar, Claudio</td>
+                                <td><a class="btn btn-primary"><i class="bi bi-cloud-download-fill"></i></a></td>
+                                <td>17/04/2022</td>
+                                <td>
+                                    <input type="number" max="10" min="0" value="0">
+                                </td>
+                                <td>27/04/2022</td>
+                                <td class="text-success"><textarea cols="40"></textarea></td>
+                            </tr>
+                        </table>
+                        <input type="submit" class="btn btn-primary " value="Guardar">
+                    </div>
+                    <div class="tab-pane fade" id="nav-bitacora" role="tabpanel" aria-labelledby="nav-bitacora-tab">
+                        <form class="form-inline">
+                            <div class="form-group mx-sm-3 mb-2">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">Alumno</div>
+                                </div>
+                                <select class="form-control">
+                                    <option>Ceserio, Lorenzo</option>
+                                    <option>Cobos, Angel</option>
+                                    <option>Ecordina, Matilde</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary mb-2">Buscar</button>
+                        </form>
+                        <div id="accordion">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h5 class="mb-0"> <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Bitacora - 21/03/2022
+</button> </h5>
+                                </div>
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+</div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <h5 class="mb-0"> <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            Bitacora - 22/03/2022
+</button> </h5>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                    <div class="card-body">
+</div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h5 class="mb-0"> <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            Bitacora - 28/03/2022
+</button> </h5>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <h5>
+                                    ¿Que tarea hicistes hoy? </h5>
+                                        <p>
+                                      Realice el crear, leer, editar y eliminar en mysql en una tabla todas estas en determinados metodos. Primero insertado su base de datos .luegos pidiendo dichos elementos y reutilizarlos para hacer las siguientes operaciones. Para que no complique mi codigo coloque un route por defecto para que a la hora de aplicar su metedo no genere problemas en controlador welcome. </p>
+                                        <h5>
+                                   ¿Tuviste algún inconveniente?    </h5>
+                                        <p>
+                                      Realice el crear leer editar y eliminar en mysql en una tabla todas estas en determinados metodos. Primero insertado su base de datos .luegos pidiendo dichos elementos y reutilizarlos para hacer las siguientes operaciones. Para que no complique mi codigo coloque un route por defecto para que a la hora de aplicar su metdo no quede colgado en welcome como me pasaba y tener que atrasarla para cargarla. Ademas utilizamos el j query para la funcionalidad del chat. Este pedira los datos de un model para poder ejecutar y imprimirlo en el chat correspondiente. Cave aclarar que todas posees su fuente   </p>
+                                        <h5>
+                                ¿Pudiste resolver la tarea?     </h5>
+                                        <p>
+                                    Realice el crear leer editar y eliminar en mysql en una tabla todas estas en determinados metodos. Primero insertado su base de datos .luegos pidiendo dichos elementos y reutilizarlos para hacer las siguientes operaciones. Para que no complique mi codigo coloque un route por defecto para que a la hora de aplicar su metdo no quede colgado en welcome como me pasaba y tener que atrasarla para cargarla. Ademas utilizamos el j query para la funcionalidad del chat. Este pedira los datos de un model para poder ejecutar y imprimirlo en el chat correspondiente. Cave aclarar que todas posees su fuente   </p>
+                                        <form>
+                                            <div class="form-group">
+                                                <h4>
+                                        Observaciones </h4> 
+                                                <textarea class="textarea" cols="100" rows="6"></textarea> 
+                                            </div>
+                                            <input type="submit" class="btn btn-primary" value="Guardar">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/popper.js"></script>
+        <script src="../bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+    </body>
+</html>

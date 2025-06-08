@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Blank Template for Bootstrap</title>
+        <!-- Bootstrap core CSS -->
+        <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="../style.css" rel="stylesheet">
+        <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    </head>
+    <body>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <nav class="bg-primary navbar navbar-dark navbar-expand-lg position-sticky">
+            <a class="navbar-brand" href="#"></a>
+            <b><a class="navbar-brand" href="#">SGSPP</a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> </b>
+            <div class="collapse navbar-collapse" id="navbarColor02">
+                <ul class="col-8 mr-auto navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link text-left" href="#">Bienvenido <b>Ceserio,Lorenzo</b></a>
+                    </li>
+                </ul>
+                <form class="form-inline">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Salir</button>
+                </form>
+            </div>
+        </nav>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="../home.html">Inicio</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">Alumnos</li>
+            </ol>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3"> 
+                    <a href="#"> <img class="w-100 img-thumbnail" src="../assets/img/alumnos" alt=""> </a> 
+                </div>
+                <div class="col-md-8 mt-4">
+                    <h3>Seguimiento Personal</h3>
+                    <nav class="col-12 mt-5">
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link Active" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="true">Información General</a>
+                            <a class="nav-item nav-link" id="nav-bitacora-tab" data-toggle="tab" href="#nav-bitacora" role="tab" aria-controls="nav-bitacora" aria-selected="false">Bitacoras</a>
+                            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Carpetas de campo</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <div class="row mt-3">
+                            <div class="col">
+                                <ul class="list-group">
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        Presentes (Días)
+                                        <span class="badge-primary badge-pill">5</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        Ausentes (Días)
+                                        <span class="badge-primary badge-pill">2</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        Total de Horas Penalizadas
+                                        <span class="badge-pill badge-primary">0</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <ul class="list-group">
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">Bitácora&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                        <span class="badge-primary badge-pill">Normal</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        Carpeta de Campo
+                                        <span class="badge-primary badge-pill">7</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        Total de Horas Acumuladas
+                                        <span class="badge-primary badge-pill">45</span>
+                                    </li>
+                                </ul>
+                            </div>                             
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <div class="row m-3">
+                            <div class="col-6">
+                                <h4>
+                                    Última Entrega </h4>
+                                <ul class="list-group">
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        Fecha de Entrega
+                                        <span class="badge-primary badge-pill">29/04/2022</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        Descarga de Archivo
+                                        <span class="badge-primary badge-pill"><i class="bi bi-cloud-download-fill"></i></span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        Calificación
+                                        <span class="badge-pill badge-primary">7</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <h4>
+                                    Observaciones </h4>
+                                <textarea disabled class="rounded" cols="60" rows="6">Muy Buena carpeta de campo pero debes tratar de explayarte un poco más en la explicación cada imagen incorporada</textarea>
+                            </div>
+                        </div>
+                        <div class="col-6 m-3">
+                            <h4>
+                                    Subir Carpeta de Campo </h4>
+                            <ul class="list-group">
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <div class="form-group">
+                                        <input type="file"/>
+                                    </div>
+                                    <span class="badge"> <div class="form-group">
+                                            <input type="submit" class="btn btn-success" value="Subir"/>
+                                        </div> </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-bitacora" role="tabpanel" aria-labelledby="nav-bitacora-tab">
+                        <button class="btn btn-success m-2">
+                            Agregar Nueva Bitácora
+</button>
+                        <h4>
+                            Todas las Bitácoras </h4>
+                        <div id="accordion">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h5 class="mb-0"> <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Bitacora - 21/03/2022
+</button> </h5>
+                                </div>
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+</div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <h5 class="mb-0"> <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            Bitacora - 22/03/2022
+</button> </h5>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                    <div class="card-body">
+</div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h5 class="mb-0"> <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            Bitacora - 28/03/2022
+</button> </h5>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <h5>
+                                    ¿Que tarea hicistes hoy? </h5>
+                                        <p>
+                                      Realice el crear, leer, editar y eliminar en mysql en una tabla todas estas en determinados metodos. Primero insertado su base de datos .luegos pidiendo dichos elementos y reutilizarlos para hacer las siguientes operaciones. Para que no complique mi codigo coloque un route por defecto para que a la hora de aplicar su metedo no genere problemas en controlador welcome. </p>
+                                        <h5>
+                                   ¿Tuviste algún inconveniente?    </h5>
+                                        <p>
+                                      Realice el crear leer editar y eliminar en mysql en una tabla todas estas en determinados metodos. Primero insertado su base de datos .luegos pidiendo dichos elementos y reutilizarlos para hacer las siguientes operaciones. Para que no complique mi codigo coloque un route por defecto para que a la hora de aplicar su metdo no quede colgado en welcome como me pasaba y tener que atrasarla para cargarla. Ademas utilizamos el j query para la funcionalidad del chat. Este pedira los datos de un model para poder ejecutar y imprimirlo en el chat correspondiente. Cave aclarar que todas posees su fuente   </p>
+                                        <h5>
+                                ¿Pudiste resolver la tarea?     </h5>
+                                        <p>
+                                    Realice el crear leer editar y eliminar en mysql en una tabla todas estas en determinados metodos. Primero insertado su base de datos .luegos pidiendo dichos elementos y reutilizarlos para hacer las siguientes operaciones. Para que no complique mi codigo coloque un route por defecto para que a la hora de aplicar su metdo no quede colgado en welcome como me pasaba y tener que atrasarla para cargarla. Ademas utilizamos el j query para la funcionalidad del chat. Este pedira los datos de un model para poder ejecutar y imprimirlo en el chat correspondiente. Cave aclarar que todas posees su fuente   </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/popper.js"></script>
+        <script src="../bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+    </body>
+</html>
